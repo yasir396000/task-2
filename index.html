@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+
+    <div class="full-page">
+        <div class="navbar">
+
+        </div>
+        <nav>
+            <ul id="itemmanu">
+                <li><a href="#">HOME</a> </li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><button class="loginbtn" onclick="document . getelementbyid ('login-form') .style.display=block"
+                        style="width:auto;">login</button>
+                </li>
+            </ul>
+        </nav>
+        <section id="nani">
+            <form id='register' class='input-group-register'>
+                <h1 class="many">REGISTRATION FORM</h1>
+                <input type='text' class='base' placeholder='Name' required> <br>
+    
+                <input type='text' class='base' placeholder='User Name' required> <br>
+    
+                <input type='number' class='base' placeholder='Number' required> <br>
+    
+                <input type='email' class='base' placeholder='Email' required> <br>
+    
+                <input type='password' class='base' placeholder='Passward' required> <br>
+                <input type='checkbox'><span class="polic">I agree to the terms and condition</span> <br>
+                <button type='submit' class='uni'> Register</button>
+            </form>
+        </section>
+    </div>
+    <div id='login-form' class='login-page'>
+        <div class="from-box">
+            <div id="btn"></div>
+            <button type='button' onclick='login() ' class='toggle-bnt'>login </button>
+        </div>
+
+    </div>
+ 
+    </div>
+</body>
+
+</html>
